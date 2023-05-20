@@ -5,7 +5,7 @@ import matplotlib.pyplot as mpl
 
 while True:
     n = int(input("Введите натуральное число n>=0: "))
-    if n >=0:
+    if n >= 0:
         break
     else:
         print("Введено неверное число!")
