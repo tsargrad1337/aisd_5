@@ -1,5 +1,4 @@
-#
-#21. F(0) = F(1) = 1, F(n) = F(n–1)!, при n > 1
+#20. F(0) = F(1) = 1, F(n) = F(n–1)!, при n > 1
 import math
 import time # импорт библиотек
 import matplotlib.pyplot as mpl
