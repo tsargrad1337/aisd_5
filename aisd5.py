@@ -1,4 +1,4 @@
-#20. F(0) = F(1) = 1, F(n) = F(n–1)!, при n > 1
+# 20. F(0) = F(1) = 1, F(n) = F(n–1)!, при n > 1
 import math
 import time # импорт библиотек
 import matplotlib.pyplot as mpl
@@ -10,7 +10,7 @@ while True:
     else:
         print("Введено неверное число!")
 
-def F_iter(n): #Итерационное решение
+def F_iter(n): # Итерационное решение
     F = [0 for i in range(n+1)]
     F[0] = 1
     F[1] = 1
@@ -18,7 +18,7 @@ def F_iter(n): #Итерационное решение
         F[i] = math.factorial(F[i-1])
     return F[n]
 
-def F_rec(n): #Рекурсивное решение
+def F_rec(n): # Рекурсивное решение
     if n == 1 or n == 0:
         return 1
     elif n > 1:
